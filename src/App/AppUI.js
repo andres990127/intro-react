@@ -3,6 +3,7 @@ import { TodoCounter } from '../TodoCounter';
 import { TodoSearch } from '../TodoSearch';
 import { TodoList } from '../TodoList';
 import { TodoItem } from '../TodoItem';
+import { TodoForm } from '../TodoForm';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { TodoContext } from '../TodoContext';
 import { Modal } from '../Modal';
@@ -34,7 +35,7 @@ function AppUI() {
 
       {!!openModal && (
         <Modal>
-          <p>Teletransportacióoonnn</p>
+          <TodoForm/>
         </Modal>
       )}
 
